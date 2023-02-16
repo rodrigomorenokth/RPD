@@ -1,5 +1,5 @@
 function [GX,GY,GZ] = canny3d(a,sigma)
-% estimates the gradient by using the Canny method
+% estimates the gradient by using the Canny method without binarization
 % INPUT: 
 %   a: input volume
 %   sigma: parameter of the canny edge detector
